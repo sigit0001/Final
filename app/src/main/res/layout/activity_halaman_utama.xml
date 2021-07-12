@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="32dp"
+        android:text="Sewa Rumah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rumah1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/rumah5" />
+
+    <ImageView
+        android:id="@+id/rumah2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/rumah1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/rumah1"
+        app:layout_constraintTop_toBottomOf="@+id/rumah1"
+        app:srcCompat="@drawable/rumah6" />
+
+    <ImageView
+        android:id="@+id/rumah3"
+        android:layout_width="361dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rumah2"
+        app:layout_constraintStart_toStartOf="@+id/rumah2"
+        app:layout_constraintTop_toBottomOf="@+id/rumah2"
+        app:layout_constraintVertical_bias="0.102"
+        app:srcCompat="@drawable/rumah7" />
+
+    <ImageView
+        android:id="@+id/rumah4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/rumah3"
+        app:layout_constraintTop_toBottomOf="@+id/rumah3"
+        app:srcCompat="@drawable/rumah4" />
+
+    <ImageView
+        android:id="@+id/rumah5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rumah4"
+        app:layout_constraintVertical_bias="0.178"
+        app:srcCompat="@drawable/rumah5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
